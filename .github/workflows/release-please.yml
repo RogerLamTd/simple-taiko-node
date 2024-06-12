@@ -13,6 +13,18 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
+          changelog-types: >
+            [
+              { "type": "feat", "section": "Features", "hidden": false },
+              { "type": "fix", "section": "Bug Fixes", "hidden": false },
+              { "type": "docs", "section": "Documentation", "hidden": false },
+              { "type": "build", "section": "Build Related", "hidden": false },
+              { "type": "chore", "section": "Chores", "hidden": false },
+              { "type": "perf", "section": "Chores", "hidden": false },
+              { "type": "ci", "section": "Chores", "hidden": false },
+              { "type": "refactor", "section": "Chores", "hidden": false },
+              { "type": "test", "section": "Chores", "hidden": false }
+            ]
