@@ -93,6 +93,7 @@ if [ "$ENABLE_PROPOSER" = "true" ]; then
     if [ -n "$TX_SEND_TIMEOUT" ]; then
         ARGS="${ARGS} --tx.sendTimeout ${TX_SEND_TIMEOUT}"
     fi
+
     exec taiko-client proposer ${ARGS}
 else
     echo "PROPOSER IS DISABLED"
