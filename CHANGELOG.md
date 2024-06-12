@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/RogerLamTd/simple-taiko-node/compare/v1.1.0...v1.1.1) (2024-06-12)
+
+
+### Bug Fixes
+
+* **docs:** revert ([#6](https://github.com/RogerLamTd/simple-taiko-node/issues/6)) ([6514768](https://github.com/RogerLamTd/simple-taiko-node/commit/6514768b02e85ddba289d11fd3079a2afde49bc4))
+
 ## [1.1.0](https://github.com/RogerLamTd/simple-taiko-node/compare/v1.0.0...v1.1.0) (2024-06-12)
 
 
