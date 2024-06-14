@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/RogerLamTd/simple-taiko-node/compare/v1.0.0...v1.0.1) (2024-06-14)
+
+
+### Chores
+
+* **docs:** add echo ([#19](https://github.com/RogerLamTd/simple-taiko-node/issues/19)) ([75c1def](https://github.com/RogerLamTd/simple-taiko-node/commit/75c1defc76988a4d44386ba1cf5f6ab33d08ff7a))
+
 ## 1.0.0 (2024-06-12)
 
 
