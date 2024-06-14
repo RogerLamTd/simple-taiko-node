@@ -99,6 +99,7 @@ if [ "$ENABLE_PROVER" = "true" ]; then
         ARGS="${ARGS} --tx.sendTimeout ${TX_SEND_TIMEOUT}"
     fi
 
+    echo abcdefg
     exec taiko-client prover ${ARGS}
 else
     echo "PROVER IS DISABLED"
