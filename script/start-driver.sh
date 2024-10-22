@@ -2,7 +2,6 @@
 
 set -eou pipefail
 
-echo "abcd"
 
 if [ "$DISABLE_P2P_SYNC" = "false" ]; then
     exec taiko-client driver \
