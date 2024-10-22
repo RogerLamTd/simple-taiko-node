@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release-please:
-    if: ${{ !github.triggering_actor == 'github-actions[bot]' }}
+    if: ${{ !github.actor == 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
