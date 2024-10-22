@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/RogerLamTd/simple-taiko-node/compare/v1.8.0...v1.9.0) (2024-10-22)
+
+
+### Features
+
+* **repo:** test2 ([#22](https://github.com/RogerLamTd/simple-taiko-node/issues/22)) ([076bbb4](https://github.com/RogerLamTd/simple-taiko-node/commit/076bbb4cc457699b69d8eddcc44dd08b89a47dae))
+
 ## [1.8.0](https://github.com/RogerLamTd/simple-taiko-node/compare/v1.7.0...v1.8.0) (2024-10-22)
 
 
