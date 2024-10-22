@@ -11,7 +11,8 @@ permissions:
 
 jobs:
   release-please:
-    if: '!contains(github.event.head_commit.message, "chore(main): release")'
-    runs-on: [arc-runner-set]
+    if: ${{ !github.triggering_actor == 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - name: Release Please
+        uses: googleapis/release-please-action@v4
