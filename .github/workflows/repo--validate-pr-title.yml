@@ -2,14 +2,8 @@ name: "Lint PR"
 
 on:
   pull_request_target:
-    types: 
-      - opened
-      - edited
-      - synchronize
-      - reopened
-  push:
-    branches:
-      - release-please-* # Trigger for release-please PRs, but skip the job
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches-ignore: release-please**
 jobs:
   validate-pr-title:
     if: github.event_name == 'pull_request_target'
